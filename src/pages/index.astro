@@ -1,14 +1,14 @@
 ---
 import { Image } from 'astro:assets';
 import Layout from '../components/Layout.astro';
-import we3IoLogo from '../assets/we3-2024-logo.svg'
+import logo from '../assets/we3-2024-logo.svg'
 ---
 
 <Layout title="We3.io - Digital Platform Studio">
 	<main>
 		<div id="content">
-			<h1><Image src={we3IoLogo} alt="We3.io - Digital Platform Studio" width="200" height="200"/></h1>
-			<p>Make a partnership application <a href="./partnership">here</a></p>	  
+			<h1><Image src={logo} alt="We3.io - Digital Platform Studio" width="200" height="200"/></h1>
+			<p id="button"><a href="./partnership"><span>Lets build</span></a></p>	  
 		</div>
 	</main>
 </Layout>
