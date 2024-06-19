@@ -10,8 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.5.8",
     "@astrojs/check": "^0.5.9",
+    "@fontsource-variable/open-sans": "^5.0.29",
+    "astro": "^4.5.8",
     "cypress": "^10.0.3",
     "typescript": "^5.4.3"
   }
